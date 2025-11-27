@@ -13,6 +13,13 @@
 
 &lt { quick-tap-ms = <300>; };
 
+&left_listener {
+    input-processors = 
+        <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
+        <&zip_xy_to_scroll_mapper>,
+        <&zip_scroll_scaler 1 16>;
+};
+
 / {
     macros {
         emoji: emoji_macro {
