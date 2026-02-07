@@ -34,7 +34,7 @@ layers:
   - {t: DEL, h: Device Layer}
   - {t: Mouse Layer, h: toggle}
   - {t: A, h: Mouse Layer}
-  - Sft+Gui+4
+  - A
   - {t: SPACE, h: Number Layer}
   - {t: ESC, h: Mark Layer}
   - {t: BS, h: Mark Layer}
